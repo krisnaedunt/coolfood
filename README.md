@@ -7,5 +7,5 @@ Script Hanya Untuk Pengguna Baru
  * cd coolfood 
  * php run.php 
  * enjoy
- <br />
+ <br/>
 <h2>SEMOGA BERMANFAAT</h2>
