@@ -1,6 +1,5 @@
 ## coolfood 
 Script Hanya Untuk Pengguna Baru
-</br>
 ## Cara Installasi
  * pkg update && pkg upgrade -y 
  * pkg install git curl php -y
@@ -8,4 +7,5 @@ Script Hanya Untuk Pengguna Baru
  * cd coolfood 
  * php run.php 
  * enjoy
+ <br />
 <h2>SEMOGA BERMANFAAT</h2>
