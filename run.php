@@ -1,7 +1,7 @@
 <?php
 
 error_reporting(0);
-include ("func.php");
+include ("support.php");
 echo "\e            GOJEK VERSION 1.7.2            \n";
 echo "\e         Semoga Harimu Menyenangkan        \n";
 echo "\n";
