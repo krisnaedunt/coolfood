@@ -5,6 +5,7 @@ echo "\e[94m            GOJEK VERSION 2.1              \n";
 echo "\e[91m         Semoga Harimu Menyenangkan        \n";
 echo "\e[93m            Format Nomor 8****            \n";
 echo "\e[95m-------------------------------------------------\n";
+echo "            Jangan Otak Atik Script Cok            \n";
 echo "\n";
 $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
