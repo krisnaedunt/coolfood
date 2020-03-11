@@ -5,7 +5,7 @@ echo "\e[94m            GOJEK VERSION 2.1              \n";
 echo "\e[91m         Semoga Harimu Menyenangkan        \n";
 echo "\e[93m            Format Nomor 08****            \n";
 echo "\e[95m-------------------------------------------------\n";
-echo "            Jangan Otak Atik Script Cok            \n";
+echo "         Jangan Otak Atik Script Cok            \n";
 echo "\n";
 $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -50,34 +50,34 @@ $nama = nama();
         echo color("green","[+] Your access token : ".$token."\n\n");
         save("token.txt",$token);
         echo color("red","\n===========(REDEEM VOUCHER)===========");
-        echo "\n".color("yellow","[!] Claim voc COBAGOCAR");
+        echo "\n".color("yellow","[!] Claim voc Gofood");
         echo "\n".color("yellow","[!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOCAR"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOODLAGI090320A"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","[+] Message: ".$message);
         goto goride;
         }else{
         echo "\n".color("red","[-] Message: ".$message);
-        echo "\n".color("yellow","[!] Claim voc BREADLIFE");
+        echo "\n".color("yellow","[!] Claim voc PejuangLapar");
         echo "\n".color("yellow","[!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"BREADLIFE"}');
+        $boba10 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD090320A"}');
         $messageboba10 = fetch_value($boba10,'"message":"','"');
         if(strpos($boba10, 'Promo kamu sudah bisa dipakai.')){
         echo "\n".color("green","[+] Message: ".$messageboba10);
         goto goride;
         }else{
         echo "\n".color("red","[-] Message: ".$messageboba10);
-        echo "\n".color("yellow","[!] Claim voc NEWID2020");
+        echo "\n".color("yellow","[!] Claim voc LaparCok");
         echo "\n".color("yellow","[!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
@@ -92,24 +92,24 @@ $nama = nama();
         }else{
         echo "\n".color("green","[+] Message: ".$messageboba19);
         goride:
-        echo "\n".color("yellow","[!] Claim voc URBANLATTE");
+        echo "\n".color("yellow","[!] Claim voc CacingDemo");
         echo "\n".color("yellow","[!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"URBANLATTE"}');
+        $goride = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"GOFOOD100320A"}');
         $message1 = fetch_value($goride,'"message":"','"');
         echo "\n".color("green","[+] Message: ".$message1);
-        echo "\n".color("yellow","[!] Claim voc EXCELSO");
+        echo "\n".color("yellow","[!] Claim voc TaiAnjing");
         echo "\n".color("yellow","[!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(1);
         }
         sleep(3);
-        $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"EXCELSO"}');
+        $goride1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOFOOD110320A"}');
         $message2 = fetch_value($goride1,'"message":"','"');
         echo "\n".color("green","[+] Message: ".$message2);
         sleep(3);
@@ -183,3 +183,5 @@ $nama = nama();
 //  }
 
 // echo change()."\n";
+setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+                 
