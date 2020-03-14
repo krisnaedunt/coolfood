@@ -7,7 +7,7 @@ echo "\e[93m            Format Nomor 08****            \n";
 echo "\e[95m-------------------------------------------------\n";
 echo "         Jangan Otak Atik Script Cok            \n";
 echo "\n";
-nama = nama();
+$nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         ulang:
         echo color("nevy","?] Number : ");
