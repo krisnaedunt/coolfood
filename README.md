@@ -7,7 +7,6 @@ Script Hanya Untuk Pengguna Baru
  * cd coolfood 
  * php run.php
  * enjoy
- <br/>
  ## Kali Linux 
  * sudo apt-get update && sudo apt-get upgrade -y
  * sudo apt-get install git curl php -y
