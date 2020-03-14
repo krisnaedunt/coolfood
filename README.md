@@ -14,4 +14,5 @@ Script Hanya Untuk Pengguna Baru
  * git clone https://github.com/krisnaedunt/coolfood.git && cd coolfood
  * php run.php
  * enjoy
+ <br/>
 <h2>SEMOGA BERMANFAAT</h2>
